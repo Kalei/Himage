@@ -1,0 +1,66 @@
+Objectif portabilité de l'application HIMAGE
+
+
+BRIEFING :
+-> Etape 1 : créer la source du programme HIMAGE
+	- v1.0 :
+		- dossier admin
+			- himage.js
+		- dossier photos
+			- dossier formats et sous-dossier H V C P (grands/ moyennes/petites) 
+			- parametrages.php
+			
+
+		- dossier modules
+		- install.txt
+			- expliciter la procédure
+			- gestion des droits sur les dossiers images (procédure de contrôle ?)
+		- version1_0.txt
+		
+
+	- images.kocliko.fr
+	
+
+-> un fichier paramètres : 
+	=> nom des champs en base de données
+	=> chemin vers les images publiques
+	=> chemin vers l'admin de l'image
+	=> chemin du JS
+	=> les formats d'images
+	=> tags oui/non => fichiers de parametrages des tags
+	=> note oui/non
+	=> meilleur format oui/non
+	=> crop
+	=> couleur canvas
+	=> redimensionnement par défaut canvas ou crop
+	=> Recherche
+
+
+ => declaration en php et JS
+
+
+
+
+
+VERSIONNING :
+v1.0 : à partir du moment ou c'est la même version portable
+Probl�mes majeurs :
+v Nom d'image
+- le crop à échelle réduite ne fonctionne pas
+
+
+Problèmes mineurs :
+- portabilité du système de tags
+- remplacement d'images // aujourd'hui on peut �craser une image existante sans s'en rendre compte.
+- amélioration du temps de chargement
+- background canvas parametrables
+- Recheche filtrage par tags
+- Listing d'images
+
+
+
+PLANNING :
+1. Création de la source   (objectif 1 jour)
+2. Install sur les sites (sauvegarde, install, test ) (objectif 2 jours) => castany agencement, topfishing, GAS, ? (villa mélodie, ADC)
+3. Correction des problèmes majeurs (ensemble 1 matinée)
+4. Correction des problèmes mineurs
